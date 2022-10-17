@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+        <title>
+            Mejame Palle Paul's portfolio
+        </title>
+        <link href="./style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <main class="main">
+        <div id="header">
+            <nav class="topnav" id="portfolioTop">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#accomplishments">Accomplishments</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="openMenu()"><i class="fa fa-bars"></i></a>
+            </nav>
+       <h1>Mejame Palle Paul</h1>
+        </div>
+        <style>
+
+            body {
+            
+              background-color: linen;
+            
+            }
+            
+            h1 {
+            
+              color: blue;
+            
+              text-align: center;
+            
+            }
+            
+            p {
+            
+              font-family: verdana;
+            
+              font-size: 20px;
+            
+            }
+            
+            </style>
+       <div id="aboutsection">
+        <figure class="figure">
+        <a href="https://www.linkedin.com/in/palle-paul-mejame-mejame-65bb0960/" target="_blank"><img src="palle paul.jpg" width="35" height="45" alt="jcu research student"/></a>
+        <figcaption>Paul's Picture</figcaption>
+        </figure>
+       <h2 class="heading uppercase" id="about">About</h2>
+       <p> Mejame is a <strong> Research Scientist at JCU</strong> with keen interest in sustainable developments.
+        As a research, Mejame is skilful in project design, data analysis and interpretation and
+        the developement and interpretation of research tools. With several publications in reputable
+        journals. Mejame is passionate about <em> developing and promoting techniques</em> that benefit man and
+        the environment.</p>
+        <br>
+        <br>
+       <h2 class="heading uppercase" id="Skills">Skills</h2>
+       <h4>Research Skills</h4>
+       <ul class="list">
+        <li>Report Writing</li>
+        <li> Data Collection</li>
+        <li>Planning and scheduling</li>
+        <li>Analysis of information from different sources</li>
+       </ul>
+       <h4>interpretation Skills</h4>
+       <ul class="list">
+       <li>Active listening</li>
+       <li>Team work</li>
+       <li>Responsibility</li>
+       <li>Leadership</li>
+       </ul>
+       <h4>Technical Skills</h4>
+       <ul class="list">
+        <li>Programming Language</li>
+        <li>Sommon operating systems</li>
+        <li>Software proficiency</li>
+        <li>Proeject management</li>
+       </ul>
+       </div>
+       <div id="accomplishmentssection">
+       <h2 class="heading uppercase" id="accomplishments">accomplishments</h2>
+       <table>
+        <tr class="table">
+           <th scope="col">Publications</th> 
+           <th scope="col"> Awards</th>
+           <th scope="col">Presentations</th>
+        </tr>
+        <tr class="table">
+            <td>Publications 1</td>
+            <td>Awards 1</td>
+            <td>Presentations 1</td>
+        </tr>
+        <tr class="table">
+            <td>Publications 2</td>
+            <td>Awards 2</td>
+            <td>Presentations 2</td>
+        </tr>
+       </table>
+       <h3>Coding Examples</h3>
+ <a href="quiz.html" target="_blank">Take the Portfolio Quiz!</a>
+       </div>
+       <div id="contactsection">
+       <h2 class="heading uppercase" id="Contact">Contact</h2>
+       <a href="https://www.linkedin.com/in/palle-paul-mejame-mejame-65bb0960/" target="_blank">Linkedin</a>
+       <br>
+       <br>
+       <form>
+        <label for="name">*Enter Name</label>
+        <br>
+        <input type="text" name="name" value="Paul" id="name" name="name"required>
+        <br>
+        <br>
+        <label for="Email">*Email</label>
+        <br>
+        <input type="text" name="email" id="email"required pattern="[a-z09._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+        <br>
+        <br>
+        <label for="mobile">Mobile optional</label>
+        <br>
+        <input type="tel" name="mobile" id="mobile" pattern="[0-9]{10,16}">
+        <br>
+        <br>
+        <label for="texyarea">*Leave your message below</label>
+        <br>
+        <textarea id="Message" name="message" required rows="5" cols="30"></textarea>
+        <br>
+        <br>
+        <input type="Submit">
+       </form>
+       </div>
+    </main>
+    <script src="./nav.js"></script>
+    </body>
+</html>
